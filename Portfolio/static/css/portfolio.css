@@ -59,7 +59,7 @@
 	left:0;
 	width:150px;
 	height:150px;
-	background-image:url('../Portfolio/static/images/overlay2.png');
+	background-image:url('../images/overlay2.png');
 	opacity:0;
 }
 
@@ -76,6 +76,14 @@
 	border-width:12px;
 	border-color: #A9A9A9;
 
+}
+
+.image-right {
+	margin-left: 3em;
+}
+
+.video {
+	margin-top: 1.5em;
 }
 
 a {
@@ -155,8 +163,8 @@ font-family: 'Dosis', sans-serif;
 font-size: 20px;
 }
 
-p small {
-  font-size: 11px;
+p.small {
+  font-size: 14px;
   color: #999999;
 }
 
@@ -187,10 +195,12 @@ blockquote {
 .other {
 	float: left;
 }
+/*
 .right {
 	float:right;
 	margin-right: 300px;
 }
+*/
 .about {
 	height:400px;
 }
