@@ -10,6 +10,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Overlock:900' rel='stylesheet' type='text/css'>
 	<script src="Portfolio/static/js/jquery-1.7.2.min.js"></script>
 	<script src="Portfolio/static/js/bootstrap.carousel.js"></script>
+	<script src="Portfolio/static/js/bootstrap-dropdown.js"></script>
 	<title>feeschmidts | Kinnal</title>
 </head>
 <div class="navbar navbar-fixed-top">
@@ -20,17 +21,34 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Kinnal Craft</a>
+          <a class="brand" href="index.html">feeschmidts Portfolio</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active">
-                  <a href="index.html">Home</a>
+                  <a href="#">Kinnal Craft</a>
               </li>
               <li class="">
                 <a href="http://twitter.com/feeschmidts">Contact</a>
               </li>
               
             </ul>
+
+<ul class="nav nav-pills">
+  <li class="dropdown" id="menu1">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+      Projects
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="kinnalcraft.html">Kinnal Craft</a></li>
+      <li><a href="monchique.html">Monchique</a></li>
+      <li><a href="carbonculture.html">CarbonCulture</a></li>
+      <li class="divider"></li>
+      <li><a href="projects.html">All Projects</a></li>
+     </ul>
+  </li>
+</ul>
+
           </div>
         </div>
       </div>
@@ -344,9 +362,34 @@
 <blockquote>"I got trailed around the village being over-fed, and shown all the CD and letters Fee sent them. I always was, and still am, so impressed with her thoroughness. It meant loads to them to get that in the post. The women aren't making much Kinnal, but everyone seems well. I hope they'll let me work with them when I live with them once more, but they seem quite guarded and secretive."<p style="float:right"><small>Tilly Gifford May 2012</small></p></blockquote>
 </div>
 <hr>
-<div class="span12">
-	More projects
-</div>
+<h1>More projects</h1>
+			<div class="details">
+				<img src="http://placehol.it/350x150" width="350" height="150"/>
+				
+					<p class="main-description">
+						typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+					<caption> tag words / relevance / key bits</caption>
+			</div>
+
+			<div class="details">
+				<img src="http://placehol.it/350x150" width="350" height="150"/>
+				
+					<p class="main-description">
+						typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+					<caption> tag words / relevance / key bits</caption>
+			</div>
+
+			<div class="details">
+				<img src="http://placehol.it/350x150" width="350" height="150"/>
+				
+					<p class="main-description">
+						typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+					<caption> tag words / relevance / key bits</caption>
+			</div>
+		</div>
 </div>
 
 
@@ -354,6 +397,7 @@
 $(document).ready(function() { 
 	$('.carousel').carousel('cycle')
 });
+$('.dropdown-toggle').dropdown();
 </script>
 
 </body>
