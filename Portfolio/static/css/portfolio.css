@@ -172,10 +172,21 @@ p.small {
   color: #999999;
 }
 
+p.note {
+	font-family: 'Waiting for the Sunrise', cursive;
+}
+
 blockquote {
 	font-family: 'Dosis', sans-serif;
 	font-size: 30px;
 	margin: 10px;
+}
+
+.rotate {
+	-moz-transform:rotate(2deg);
+	-webkit-transform:rotate(2deg);
+	-o-transform:rotate(2deg);
+	-ms-transform:rotate(2deg);
 }
 
 /*blockquote p{
