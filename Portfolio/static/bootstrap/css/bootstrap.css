@@ -158,6 +158,7 @@ textarea {
 .row {
   margin-left: -20px;
   *zoom: 1;
+  margin-top: 1.5em;
 }
 
 .row:before,
@@ -419,30 +420,7 @@ textarea {
   line-height: 1;
 }
 
-ul,
-ol {
-  padding: 0;
-  margin: 0 0 9px 25px;
-}
 
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-  margin-bottom: 0;
-}
-
-ul {
-  list-style: disc;
-}
-
-ol {
-  list-style: decimal;
-}
-
-li {
-  line-height: 18px;
-}
 
 ul.unstyled,
 ol.unstyled {
