@@ -208,6 +208,10 @@ li {
   font-family: 'Dosis', sans-serif; 
 }
 
+.logo {
+	float: right;
+	height: 100px;
+}
 
 .tooltip {
   border-bottom: 1px dotted #000000;
